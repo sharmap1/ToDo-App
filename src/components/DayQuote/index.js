@@ -25,7 +25,7 @@ const DayQuote = () => {
           <Card.Header as="h5">My Quotes</Card.Header>
           <Card.Img
             variant="top"
-            src="https://i.ytimg.com/vi/y-VILY1x6RM/hqdefault.jpg"
+            src="https://avatarfiles.alphacoders.com/126/126672.jpg"
           />
 
           <p>
