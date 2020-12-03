@@ -15,7 +15,7 @@ https://todo-fun.netlify.app/
 
 ## Screenshot
 
-<img src="src/assets/img/screenshot.JPG" width="350" height="450">
+<img src="src/assets/img/screenshot.JPG" width="650" height="450">
 
 ## Technologies used
 
@@ -31,12 +31,6 @@ https://todo-fun.netlify.app/
 ## Contributing
 
 - Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-## History
-
-```
-This is a simple app I always wanted to make and have some fun side in it with a lot of logic using react,I am very happy the way it is so aimple and yet fun.
-```
 
 ## Copyright
 
