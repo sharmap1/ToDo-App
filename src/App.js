@@ -3,7 +3,7 @@ import TodoInput from "./components/TodoInput";
 import TodoList from "./components/TodoList";
 import "./App.css"
 import DayJoke from "./components/DayJoke";
-import DayPic from "./components/DayPic";
+// import DayPic from "./components/DayPic";
 import DayQuote from "./components/DayQuote";
 
 import "bootstrap/dist/css/bootstrap.min.css";
