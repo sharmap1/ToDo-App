@@ -36,7 +36,7 @@ const DayQuote = () => {
             onClick={() => setFetching(!fetching)}
             className="btn btn-info"
           >
-            next
+          <i class="fas fa-arrow-circle-right"></i>
           </button>
         </Card.Body>
       </Col>
