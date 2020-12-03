@@ -25,7 +25,7 @@ const DayQuote = () => {
           <Card.Header as="h5">My Quotes</Card.Header>
           <Card.Img
             variant="top"
-            src="http://beautyharmonylife.com/wp-content/uploads/2013/09/431217-1024x768-pine-island-800x600.jpg"
+            src="https://i.ytimg.com/vi/y-VILY1x6RM/hqdefault.jpg"
           />
 
           <p>
