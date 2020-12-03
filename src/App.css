@@ -1,10 +1,32 @@
 .App {
   /* text-align: center; */
-  background-color: black !important;
+  background-color: dimgray !important;
   color: white;
 }
 .sub-card {
-  background-color: lightseagreen;
+  background-color: rgb(11, 88, 119);
+  color: white;
+  border-radius: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.joke-card {
+  background-color: rgba(9, 60, 155, 0.418);
+  color: white;
+  border-radius: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.pic-card {
+  background-color: dimgray;
+  color: white;
+  border-radius: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  float: right;
+}
+.quote-card {
+  background-color: rgb(73, 80, 122);
   color: white;
   border-radius: 2rem;
   margin-top: 2rem;

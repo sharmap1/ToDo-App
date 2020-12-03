@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import TodoInput from "./components/TodoInput";
 import TodoList from "./components/TodoList";
 import "./App.css"
+import DayJoke from "./components/DayJoke";
+import DayPic from "./components/DayPic";
+import DayQuote from "./components/DayQuote";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Col, Row, Container, Card } from "react-bootstrap";
@@ -52,9 +55,6 @@ const App = () => {
     <main className="App">
         <Container>
           <Row>
-            <Col md={{ span: 12, offset: 0 }}>
-            </Col>
-
             <Col md={{ span: 6, offset: 0 }}>
               <Card.Body className="sub-card">
                 <Card.Header as="h5">My TODO</Card.Header>
@@ -66,6 +66,7 @@ const App = () => {
       {/* <div className="row"> */}
         {/* <div className="col-10 mx-auto col-md-8 mt-4"> */}
           {/* <h3 className="text-capitalize text-center">My Todo .. </h3> */}
+          <Card.Body>
           <TodoInput
             item={item}
             handleChange={handleChange}
@@ -79,7 +80,11 @@ const App = () => {
             handleEdit={handleEdit}
           />
               </Card.Body>
+              </Card.Body>
             </Col>
+            <DayJoke />
+            {/* <DayPic /> */}
+            <DayQuote/>
             </Row>
         </Container>
    </main>
