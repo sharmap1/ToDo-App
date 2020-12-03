@@ -5,6 +5,7 @@ import "./App.css"
 import DayJoke from "./components/DayJoke";
 // import DayPic from "./components/DayPic";
 import DayQuote from "./components/DayQuote";
+import Time from "./components/Time";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Col, Row, Container, Card } from "react-bootstrap";
@@ -54,6 +55,10 @@ const App = () => {
   return (
     <main className="App">
         <Container>
+        <Col md={{ span: 6, offset: 0 }}>
+            <Time/>
+            </Col>
+
           <Row>
             <Col md={{ span: 6, offset: 0 }}>
               <Card.Body className="sub-card">
