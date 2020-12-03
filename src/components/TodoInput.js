@@ -2,7 +2,7 @@ import React from "react";
 
 const TodoInput = ({ item, handleChange, handleSubmit, editItem }) => {
   return (
-    <div className="card card-body my-3" style={{backgroundColor:"beige", borderRadius:"1rem"}}>
+    <div className="card card-body my-3" style={{backgroundColor:"dimgray", borderRadius:"1rem"}}>
       <form onSubmit={handleSubmit}>
         <div className="input-group">
           <div className="input-group-prepend">
