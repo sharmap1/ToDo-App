@@ -1,11 +1,13 @@
 import React from "react";
 
 import TodoItem from "./TodoItem";
+import { Card } from "react-bootstrap";
 
 const TodoList = ({ items, clearList, handleDelete, handleEdit }) => {
   return (
-    <ul className="list-group my-5">
-      <h3 className="text-capitalize text-center">todo list</h3>
+    <ul className="list-group my-5" >
+      {/* <h3 className="text-capitalize text-center">My list</h3> */}
+      <Card.Header as="h5">My list</Card.Header>
       {items.map(item => {
         return (
           <TodoItem
@@ -20,6 +22,7 @@ const TodoList = ({ items, clearList, handleDelete, handleEdit }) => {
         type="button"
         className="btn btn-danger btn-block text-capitalize mt-5"
         onClick={clearList}
+        style={{borderRadius:"0.5rem"}} 
       >
         Clear list
       </button>

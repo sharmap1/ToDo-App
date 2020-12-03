@@ -2,7 +2,7 @@ import React from "react";
 
 const TodoInput = ({ item, handleChange, handleSubmit, editItem }) => {
   return (
-    <div className="card card-body my-3">
+    <div className="card card-body my-3" style={{backgroundColor:"beige", borderRadius:"1rem"}}>
       <form onSubmit={handleSubmit}>
         <div className="input-group">
           <div className="input-group-prepend">
@@ -26,6 +26,7 @@ const TodoInput = ({ item, handleChange, handleSubmit, editItem }) => {
               ? "btn btn-block btn-success mt-3"
               : "btn btn-block btn-primary mt-3"
           }
+          style={{borderRadius:"0.5rem"}} 
         >
           {editItem ? "Edit item" : "Add item"}
         </button>

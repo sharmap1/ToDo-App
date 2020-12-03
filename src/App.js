@@ -1,8 +1,11 @@
 import React, { useState } from "react";
 import TodoInput from "./components/TodoInput";
 import TodoList from "./components/TodoList";
+import "./App.css"
 
 import "bootstrap/dist/css/bootstrap.min.css";
+import { Col, Row, Container, Card } from "react-bootstrap";
+
 // import uuid from "uuid";
 import { v4 as uuid } from "uuid";
 const App = () => {
@@ -46,10 +49,23 @@ const App = () => {
   };
 
   return (
-    <div className="container">
-      <div className="row">
-        <div className="col-10 mx-auto col-md-8 mt-4">
-          <h3 className="text-capitalize text-center">Todo input</h3>
+    <main className="App">
+        <Container>
+          <Row>
+            <Col md={{ span: 12, offset: 0 }}>
+            </Col>
+
+            <Col md={{ span: 6, offset: 0 }}>
+              <Card.Body className="sub-card">
+                <Card.Header as="h5">My TODO</Card.Header>
+                <Card.Body></Card.Body>
+    {/* <main className="App"> */}
+    {/* <div className="container"  */}
+    {/* style={{backgroundColor:"grey" , color:"white"}} */}
+    {/* > */}
+      {/* <div className="row"> */}
+        {/* <div className="col-10 mx-auto col-md-8 mt-4"> */}
+          {/* <h3 className="text-capitalize text-center">My Todo .. </h3> */}
           <TodoInput
             item={item}
             handleChange={handleChange}
@@ -62,9 +78,11 @@ const App = () => {
             handleDelete={handleDelete}
             handleEdit={handleEdit}
           />
-        </div>
-      </div>
-    </div>
+              </Card.Body>
+            </Col>
+            </Row>
+        </Container>
+   </main>
   );
 };
 
